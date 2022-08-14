@@ -1,0 +1,15 @@
+@use '@styles/mixins.scss';
+
+.navigationBarContainer {
+    @include mixins.auto-h-w;
+    @include mixins.flex-row-jc-sb-al-c;
+    min-height: 10%;
+    min-width: 100%;
+    position: fixed;
+}
+
+.navigationBarLogo {
+    @include mixins.auto-h-w;
+    max-height: 6em;
+    min-width: 20%;
+}

@@ -1,0 +1,20 @@
+@mixin auto-h-w {
+    height: auto;
+    width: auto;
+}
+
+//Flex container row justify content space between, and align items center.
+@mixin flex-row-jc-sb-al-c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+//Flex container column justify content space between, and align items center.
+@mixin flex-column-jc-sb-al-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

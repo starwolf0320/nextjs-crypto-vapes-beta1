@@ -15,16 +15,28 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
     "cypress": "^10.0.3",
+    "framer-motion": "^7.1.0",
     "next": "^12.1.4",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-svg": "^15.1.5",
+    "sass": "^1.54.4",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^4.9.1",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "12.2.5",
     "netlify-plugin-cypress": "2.2.0"
   }
 }
